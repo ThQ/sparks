@@ -23,7 +23,7 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
    const unsigned int grid_h = graph->height - graph->margins.top - graph->margins.bottom;
 
    sparks_data_t* d = data;
-   const sparks_data_t* d_max = d + data_len;
+   const sparks_data_t* d_max = d + data_len - 1;
    unsigned int x = graph->margins.left;
    const unsigned int x_step = grid_w / (graph->data_length-1);
    unsigned int y = 0;
