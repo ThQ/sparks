@@ -8,13 +8,14 @@ sparks_draw_area (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
    sparks_grid_t grid = sparks_grid_new(graph);
    sparks_data_t* d = data;
    const sparks_data_t* d_max = d + data_len - 1;
-   unsigned int x = graph->margins.left;
-   const unsigned int x_step = grid.w / (graph->data_length-1);
+   float x = graph->margins.left;
+   const float x_step = (float)grid.w / graph->data_length;
    unsigned int y = 0;
    unsigned char begin_new_area = 1;
 
    cairo_set_source_rgba(graph->cr, opt.color.r, opt.color.g, opt.color.b,
       opt.color.a);
+
    while (d++ <= d_max)
    {
       y = grid.y + grid.h - (grid.h * (*d) / 127);

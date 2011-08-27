@@ -115,7 +115,6 @@ sparks_draw_borders (sparks_t* graph, double size, double r, double g, double b)
 sparks_grid_t
 sparks_grid_new (sparks_t* graph);
 
-
 /**
  * Sets the maximum length of the data series being plotted.
  */

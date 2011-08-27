@@ -14,18 +14,17 @@ sparks_line_opt_new ()
    return opt;
 }
 
+
 void
 sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
    sparks_line_opt_t opt)
 {
-   const unsigned int grid_y = graph->margins.top;
-   const unsigned int grid_w = graph->width - graph->margins.left - graph->margins.right;
-   const unsigned int grid_h = graph->height - graph->margins.top - graph->margins.bottom;
+   sparks_grid_t grid = sparks_grid_new(graph);
 
    sparks_data_t* d = data;
    const sparks_data_t* d_max = d + data_len - 1;
-   unsigned int x = graph->margins.left;
-   const unsigned int x_step = grid_w / (graph->data_length-1);
+   float x = graph->margins.left;
+   const float x_step = (float)grid.w / graph->data_length;
    unsigned int y = 0;
    unsigned char begin_new_line = 1;
 
@@ -37,7 +36,7 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
    {
       if (*d >= 0)
       {
-         y = grid_y + grid_h - (grid_h * (*d) / 127);
+         y = grid.y + grid.h - (grid.h * (*d) / 127);
          if (begin_new_line == 1)
          {
             cairo_move_to(graph->cr, x, y);
