@@ -15,6 +15,10 @@ More information :
 
 ![Line sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line.png)
 
+* Multi line ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c))
+
+![Multiline sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/multi_line.png)
+
 * Bars ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c))
 
 ![Bars sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png)
