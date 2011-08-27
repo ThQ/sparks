@@ -1,7 +1,7 @@
 # What is it ?
 
-**Sparks** is a MIT licensed C library for generating PNG sparklines (small
-plots) with Cairo.
+**Sparks** is a [MIT licensed](http://en.wikipedia.org/wiki/Sparkline) C library for generating PNG [sparklines](http://en.wikipedia.org/wiki/Sparkline) (small
+plots) with [Cairo](http://en.wikipedia.org/wiki/Sparkline).
 
 More information :
 
