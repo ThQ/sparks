@@ -43,7 +43,6 @@ void
 sparks_draw_bars (sparks_t* graph, sparks_data_t* data, unsigned int len,
    sparks_bars_opt_t opt);
 
-inline
 void
 sparks_draw_simple_bars (sparks_t* graph, sparks_data_t* data,
    unsigned int len);

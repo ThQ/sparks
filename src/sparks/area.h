@@ -42,7 +42,6 @@ void
 sparks_draw_area (sparks_t* graph, sparks_data_t* data, unsigned int len,
    sparks_area_opt_t opt);
 
-inline
 void
 sparks_draw_simple_area (sparks_t* graph, sparks_data_t* data,
    unsigned int len);
