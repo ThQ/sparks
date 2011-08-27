@@ -13,7 +13,12 @@ More information :
 
 * Line ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/line.c))
 
-![Line Sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/area.png)
+![Line sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line.png)
 
 * Bars ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c))
+
+![Bars sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png)
+
 * Area ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/area.c))
+
+![Area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/area.png)
