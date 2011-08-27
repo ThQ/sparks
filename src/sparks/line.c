@@ -56,9 +56,6 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
       }
    }
    cairo_stroke(graph->cr);
-
-   cairo_arc(graph->cr, x-x_step, y, opt.symbol_size, 0, 2 * M_PI);
-   cairo_fill(graph->cr);
 }
 
 void
