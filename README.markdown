@@ -29,4 +29,4 @@ More information :
 
 * Line + area ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c))
 
-![Line area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line-area.png)
+![Line area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line_area.png)
