@@ -8,7 +8,7 @@ int main (int argc, char** argv)
    sparks_t graph = sparks_new(150, 20);
    sparks_set_data_length(&graph, 12);
    sparks_draw_bg(&graph, 1, 1, 1);
-   sparks_draw_simple_area(&graph, data, 12);
+   sparks_draw_simple_area(&graph, data, 12, opt);
    sparks_save_png(&graph, "area.png");
    sparks_clean(&graph);
 

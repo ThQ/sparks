@@ -26,3 +26,7 @@ More information :
 * Area ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/area.c))
 
 ![Area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/area.png)
+
+* Line + area ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c))
+
+![Line area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line-area.png)
