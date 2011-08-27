@@ -4,4 +4,5 @@
 plots) with Cairo.
 
 More information :
+
 * http://en.wikipedia.org/wiki/Sparkline
