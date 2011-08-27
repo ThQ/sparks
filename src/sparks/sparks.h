@@ -26,8 +26,10 @@
 
 #include <cairo.h>
 #include <math.h>
+#include <stdbool.h>
 #include <stdio.h>
 
+#define SPARKS_DATA_0 ((sparks_data_t)0)
 #define SPARKS_DATA_NA -1
 
 typedef char sparks_data_t;
@@ -87,7 +89,7 @@ typedef struct
  * @param height The height of the graph image
  */
 sparks_t
-sparks_new (int width, int height);
+sparks_new (unsigned int width, unsigned int height);
 
 /**
  * Creates a new sparks_color_t from three RGB components.
@@ -126,10 +128,6 @@ sparks_set_data_length (sparks_t* graph, unsigned int len);
  */
 void
 sparks_set_margin (sparks_t* graph, unsigned int margin);
-
-
-void
-sparks_draw_fill (sparks_t* graph, unsigned char* data, unsigned len);
 
 /**
  * Writes the plot to a PNG file.

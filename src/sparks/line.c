@@ -23,10 +23,10 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
 
    sparks_data_t* d = data;
    const sparks_data_t* d_max = d + data_len - 1;
-   float x = graph->margins.left;
-   const float x_step = (float)grid.w / graph->data_length;
-   unsigned int y = 0;
-   unsigned char begin_new_line = 1;
+   double x = (double)graph->margins.left;
+   const double x_step = (double)grid.w / graph->data_length;
+   double y = (double)0;
+   bool begin_new_line = true;
 
    cairo_set_line_width(graph->cr, opt.width);
    cairo_set_source_rgba(graph->cr, opt.color.r, opt.color.g, opt.color.b,
@@ -34,10 +34,10 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
 
    while (d++ < d_max)
    {
-      if (*d >= 0)
+      if (*d >= SPARKS_DATA_0)
       {
-         y = grid.y + grid.h - (grid.h * (*d) / 127);
-         if (begin_new_line == 1)
+         y = (double)grid.y + grid.h - (grid.h * (int)(*d) / 127);
+         if (begin_new_line)
          {
             cairo_move_to(graph->cr, x, y);
          }
@@ -46,12 +46,12 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
             cairo_line_to(graph->cr, x, y);
          }
          x += x_step;
-         begin_new_line = 0;
+         begin_new_line = false;
       }
       else
       {
          cairo_stroke(graph->cr);
-         begin_new_line = 1;
+         begin_new_line = true;
       }
    }
    cairo_stroke(graph->cr);
