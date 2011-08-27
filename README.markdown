@@ -12,6 +12,7 @@ More information :
 # Sparkline types
 
 * Line ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/line.c))
+
 ![Line Sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/area.png)
 
 * Bars ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c))
