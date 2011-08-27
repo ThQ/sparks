@@ -14,8 +14,8 @@ int main (int argc, char** argv)
 
    sparks_t graph = sparks_new(150, 20);
    sparks_set_data_length(&graph, 20);
-   sparks_draw_simple_line(&graph, data, 20);
    sparks_draw_area(&graph, data, 20, opt);
+   sparks_draw_simple_line(&graph, data, 20);
    sparks_save_png(&graph, "line_area.png");
    sparks_clean(&graph);
 
