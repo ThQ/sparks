@@ -38,15 +38,12 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
       if (*d >= 0)
       {
          y = grid_y + grid_h - (grid_h * (*d) / 127);
-         printf("@%d,%d\n", x, y);
          if (begin_new_line == 1)
          {
-            printf("MOVE_TO\n");
             cairo_move_to(graph->cr, x, y);
          }
          else
          {
-            printf("LINE_TO\n");
             cairo_line_to(graph->cr, x, y);
          }
          x += x_step;
@@ -54,7 +51,6 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned int data_len,
       }
       else
       {
-         printf("STROKE\n");
          cairo_stroke(graph->cr);
          begin_new_line = 1;
       }
