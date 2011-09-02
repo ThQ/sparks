@@ -9,24 +9,39 @@ More information :
 
 
 
-# Sparkline types
+# What you can do
 
-* Line (Sample : [CPU usage](https://github.com/thomas-quemard/sparks/blob/master/examples/line.c))
+* *Line*
+
+*# [CPU usage](https://github.com/thomas-quemard/sparks/blob/master/examples/line.c)
 
 ![Line sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line.png)
 
-* Multi line ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c))
+
+* *Multi line*
+
+*# [Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c)
 
 ![Multiline sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/multi_line.png)
 
-* Bars ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c))
+
+* *Bars*
+
+*# [Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c)
 
 ![Bars sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png)
 
-* Area ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/area.c))
+
+* *Area*
+
+*# [Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/area.c)
 
 ![Area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/area.png)
 
-* Line + area (Sample : [Apple stock price](https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c))
+
+
+* *Line + area*
+
+*# [Apple stock price](https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c)
 
 ![Line area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line_area.png)
