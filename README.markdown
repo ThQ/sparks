@@ -26,14 +26,12 @@ More information :
 * **Bars**
 
 	* [Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c)
-	
 	![Bars sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png)
 
 
 * **Area**
 
 	* [Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/area.c)
-	
 	![Area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/area.png)
 
 
@@ -41,5 +39,4 @@ More information :
 * **Line + area**
 
 	* [Apple stock price](https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c)
-	
 	![Line area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line_area.png)
