@@ -19,7 +19,7 @@ int main (int argc, char** argv)
    sparks_area_opt_t opt = sparks_area_opt_new();
    opt.color = sparks_get_rgb_color(0.9, 0.9, 0.9);
 
-   sparks_t graph = sparks_new(150, 20);
+   sparks_t graph = sparks_new(220, 30);
    sparks_set_data_length(&graph, 100);
    sparks_draw_area(&graph, data, 100, opt);
    sparks_draw_simple_line(&graph, data, 100);
