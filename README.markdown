@@ -11,10 +11,12 @@ More information :
 
 # What you can do
 
-* **Line**
-
-	* [CPU usage](https://github.com/thomas-quemard/sparks/blob/master/examples/line.c)
-	![Line sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line.png)
+<table>
+	<tr>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/line.c">CPU usage</a></td>
+		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/line.png"></td>
+	</tr>
+</table>
 
 
 * **Multi line**
