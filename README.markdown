@@ -22,8 +22,8 @@ More information :
 		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c">Multi line</a></td>
 	</tr>
 	<tr>
-		<td><img src="https://github.com/thomas-quemard/sparks/blob/master/examples/bars.png" /></td>
-		<td><a href="https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png">Bars</a></td>
+		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png" /></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c">Bars</a></td>
 	</tr>
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/area.png" /></td>
