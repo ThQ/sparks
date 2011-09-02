@@ -14,7 +14,7 @@ More information :
 <table>
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/line.png" /></td>
-		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/line.c">CPU usage</a></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/line.c">CPU usage</a> (using <code>mpstat -P 0 2 100</code>)</td>
 	</tr>
 
 	<tr>
