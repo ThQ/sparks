@@ -11,7 +11,7 @@ More information :
 
 # Sparkline types
 
-* Line ([Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/line.c))
+* Line ([CPU usage](https://github.com/thomas-quemard/sparks/blob/master/examples/line.c))
 
 ![Line sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line.png)
 
