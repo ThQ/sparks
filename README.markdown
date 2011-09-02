@@ -19,7 +19,7 @@ More information :
 
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/multi_line.png" /></td>
-		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c">Multi line</a></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c">Land temperature (red) and ocean temperature (blue)</a> from 1909 to 2008 (Source: <a href="http://www.cru.uea.ac.uk/">CRU</a></td>
 	</tr>
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png" /></td>
