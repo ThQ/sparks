@@ -31,6 +31,6 @@ More information :
 	</tr>
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/line_area.png" /></td>
-		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c">Apple closing stock price/a></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c">Apple closing stock price</a></td>
 	</tr>
 </table>
