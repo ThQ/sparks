@@ -19,31 +19,18 @@ More information :
 
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/multi_line.png" /></td>
-		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c">Sample</a></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/multi_line.c">Multi line</a></td>
+	</tr>
+	<tr>
+		<td><img src="https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c" /></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png">Bars</a></td>
+	</tr>
+	<tr>
+		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/area.png" /></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/area.c">Area</a></td>
+	</tr>
+	<tr>
+		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/line_area.png" /></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c">Apple closing stock price/a></td>
 	</tr>
 </table>
-
-
-* **Multi line**
-
-	* [Sample]()
-	![Multiline sparkline]()
-
-
-* **Bars**
-
-	* [Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c)
-	![Bars sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png)
-
-
-* **Area**
-
-	* [Sample](https://github.com/thomas-quemard/sparks/blob/master/examples/area.c)
-	![Area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/area.png)
-
-
-
-* **Line + area**
-
-	* [Apple stock price](https://github.com/thomas-quemard/sparks/blob/master/examples/line_area.c)
-	![Line area sparkline](https://github.com/thomas-quemard/sparks/raw/master/examples/line_area.png)
