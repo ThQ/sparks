@@ -29,8 +29,10 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+#define SPARKS_DATA_HMIDDLE ((sparks_data_t)63)
+#define SPARKS_DATA_MAX ((sparks_data_t)127)
 #define SPARKS_DATA_0 ((sparks_data_t)0)
-#define SPARKS_DATA_NA -1
+#define SPARKS_DATA_NA ((sparks_data_t)-1)
 
 typedef char sparks_data_t;
 
