@@ -23,7 +23,7 @@ More information :
 	</tr>
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/bars.png" /></td>
-		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c">Bars</a></td>
+		<td><a href="https://github.com/thomas-quemard/sparks/blob/master/examples/bars.c">Japanese suicide rate (from 1960 to 2009)</a> (Source: <a href="http://www.oecd.org/document/60/0,3746,fr_2649_34631_32368700_1_1_1_1,00&&en-USS_01DBC.html">OECD</a>)</td>
 	</tr>
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/area.png" /></td>
