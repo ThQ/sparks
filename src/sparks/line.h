@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (C) 2011 by Thomas Quémard
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -23,6 +23,10 @@
 #ifndef _SPARKS__LINE__H_
 #define _SPARKS__LINE__H_
 
+/**
+ * @defgroup line
+ * @{
+ */
 
 #include "sparks/sparks.h"
 typedef enum
@@ -59,4 +63,7 @@ sparks_draw_line (sparks_t* graph, sparks_data_t* data, unsigned len,
 void
 sparks_draw_simple_line (sparks_t* graph, sparks_data_t* data, unsigned len);
 
+/**
+ * @}
+ */
 #endif

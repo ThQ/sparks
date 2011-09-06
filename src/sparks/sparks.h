@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (C) 2011 by Thomas Quémard
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,6 +33,11 @@
 #define SPARKS_DATA_MAX ((sparks_data_t)127)
 #define SPARKS_DATA_0 ((sparks_data_t)0)
 #define SPARKS_DATA_NA ((sparks_data_t)-1)
+
+/**
+ * @defgroup Sparks
+ * @{
+ */
 
 typedef char sparks_data_t;
 
@@ -137,4 +142,7 @@ sparks_set_margin (sparks_t* graph, unsigned int margin);
 void
 sparks_save_png (sparks_t* graph, char* file_path);
 
+/**
+ * @}
+ */
 #endif

@@ -2,6 +2,9 @@ xCC=gcc -std=c99 -Wall -pedantic
 xCC_EXAMPLE:=$(xCC) -O0 `echo src/sparks/*.c` -I./src `pkg-config --cflags --libs cairo`
 
 
+doc:
+	doxygen Doxyfile
+
 examples: example-area example-bars example-line example-line-area example-multi-line
 
 example-bars:

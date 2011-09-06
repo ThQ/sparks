@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (C) 2011 by Thomas Quémard
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,6 +27,11 @@
 #include "sparks/sparks.h"
 
 /**
+ * @defgroup bars
+ * @{
+ */
+
+/**
  * Options for line graphs.
  */
 typedef struct
@@ -53,4 +58,7 @@ sparks_draw_simple_bars (sparks_t* graph, sparks_data_t* data,
 sparks_bars_opt_t
 sparks_bars_opt_new ();
 
+/**
+ * @}
+ */
 #endif

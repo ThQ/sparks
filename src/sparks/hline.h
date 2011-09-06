@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (C) 2011 by Thomas Quémard
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -26,6 +26,10 @@
 
 #include "sparks/sparks.h"
 
+/**
+ * @defgroup hline
+ * @{
+ */
 
 /**
  * Options for line graphs.
@@ -53,4 +57,7 @@ sparks_draw_hline (sparks_t* graph, sparks_data_t data,
 void
 sparks_draw_simple_hline (sparks_t* graph, sparks_data_t data);
 
+/**
+ * @}
+ */
 #endif
