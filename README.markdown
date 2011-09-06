@@ -12,14 +12,12 @@ More information :
 # What you can do
 
 <table>
-   <th>
-      <tr>
-            <td></td>
-            <td>Data</td>
-            <td>Source</td>
-            <td>Data points</td>
-      </tr>
-   </th>
+   <tr>
+         <th>Sparkline</th>
+         <th>Data</th>
+         <th>Source</th>
+         <th>Data points</th>
+   </tr>
 
 	<tr>
 		<td><img src="https://github.com/thomas-quemard/sparks/raw/master/examples/line.png" /></td>
